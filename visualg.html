@@ -10,7 +10,32 @@
 <body>
     <div>
      <img class="imagem" src="piso.png" alt="Visualg">
+ 
+
     </div>       
-    <button> <a href="index.html"> Voltar </a></button>
+
+     <a href="index.html"> Voltar </a>
+     <div id="copiar">
+        <button onclick="copyToClipboard()">Copiar para área de transferência</button>
+
+        <h3 type="text" id="textoParaCopiar" value="   algoritmo 'semnome'
+             var
+                 salario_anual : real
+                 piso_salarial_mensal : real
+                 salario_mensal : real
+             inicio
+                 escreva ('Digite o salario anual do funcionario: ')
+                 leia (salario_anual)
+                 escreva ('Digite o piso salarial mensal da categoria: ')
+                 leia (piso_salarial_mensal)
+                 salario_mensal := salario_anual / 12
+                 se salario_mensal >= piso_salarial_mensal entao
+                     escreval('O funcionario recebe de acordo com o piso.')
+                 senao
+                     escreval('O funcionario recebe abaixo do piso.')
+                 fimse
+             fimalgoritmo">
+     </div>
+
 </body>
 </html>

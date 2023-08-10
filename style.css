@@ -25,11 +25,14 @@ body {
 }
  
 .imagem {
-    width:550px ;
-    height: 450px;
+    width:750px ;
+    height: 650px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#copiar{
+    float: inline-end;
 }
     
